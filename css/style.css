@@ -95,6 +95,7 @@ nav ul li a:hover {
 	text-align: center;
 	border: 3px solid #fff;
 }
+
 .banner p {
 	color: rgb(222, 248, 246);
 	/* z-index: -2; */
@@ -162,7 +163,7 @@ section h3 {
 }
 
 .box .col-4 h4 {
-	margin: 20px 0;
+	margin: 40px 0;
 }
 
 .card {
@@ -297,17 +298,17 @@ footer {
 	transform-origin: 0 100%;
 }
 
-.menu-toggle input:checked ~ span:nth-child(2) {
+.menu-toggle input:checked~span:nth-child(2) {
 	background-color: white;
 	transform: rotate(45deg) translate(-1px, -1px);
 }
 
-.menu-toggle input:checked ~ span:nth-child(4) {
+.menu-toggle input:checked~span:nth-child(4) {
 	background-color: white;
 	transform: rotate(-45deg) translate(-1px, 0);
 }
 
-.menu-toggle input:checked ~ span:nth-child(3) {
+.menu-toggle input:checked~span:nth-child(3) {
 	opacity: 0;
 	transform: scale(0);
 }
