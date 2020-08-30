@@ -320,6 +320,12 @@ footer {
 	nav ul {
 		width: 50%;
 	}
+
+	.box .col-4 {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
 }
 
 /* ukuran mobile */
@@ -349,9 +355,5 @@ footer {
 		transform: translate(0);
 	}
 
-	.box .col-4 {
-		width: 100%;
-		float: none;
-		margin-bottom: 20px;
-	}
+
 }
