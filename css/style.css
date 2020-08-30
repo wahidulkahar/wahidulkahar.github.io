@@ -316,7 +316,7 @@ footer {
 /* Responsive */
 
 /* ukuran tablet */
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 768px) {
 	nav ul {
 		width: 50%;
 	}
@@ -349,6 +349,7 @@ footer {
 		transition: all 1s;
 		opacity: 0;
 	}
+
 
 	nav ul.slide {
 		opacity: 1;
